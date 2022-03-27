@@ -40,13 +40,13 @@ html {
 a {
   text-decoration: none;
 }
-.container-header{
+.container-header {
   display: flex;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
 .container {
   width: 1200px;
@@ -89,7 +89,7 @@ a {
   width: 145px;
   height: 31px;
   padding-top: 24px;
-  padding-bottom: 24px;  
+  padding-bottom: 24px;
   align-items: center;
   margin-right: 93px;
 
@@ -211,7 +211,16 @@ p {
   height: 600px;
   padding-bottom: 200px;
 
+  max-width: 1600px;
+  margin: 0 auto;
   background-color: var(--primary-dark-bg);
+  background-image: url(../foto/overlay.jpg);
+  background-image: linear-gradient(
+      top bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../foto/overlay.jpg);
 }
 .hero-btn {
   display: block;
@@ -348,7 +357,7 @@ p {
   margin-top: auto;
   margin-bottom: auto;
 }
-.presentation{
+.presentation {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -381,11 +390,10 @@ p {
   padding: 0px;
 }
 
-.container-footer  .footer-link {
+.container-footer .footer-link {
   width: 145px;
   height: 31px;
   margin-bottom: 20px;
-  
 }
 .footer .footer-link {
   font-family: "Raleway", sans-serif;
@@ -407,7 +415,6 @@ p {
   display: block;
   min-width: 231px;
   padding-bottom: 9px;
-  
 
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -421,7 +428,6 @@ p {
   display: block;
   min-width: 231px;
   padding-bottom: 9px;
-  
 
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -434,7 +440,6 @@ p {
 .footer-link-tel {
   display: block;
   min-width: 231px;
-  
 
   font-family: "Roboto", sans-serif;
   font-style: normal;
