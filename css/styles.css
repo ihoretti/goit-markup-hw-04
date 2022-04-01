@@ -382,6 +382,9 @@ p {
   border-radius: 4px;
   margin-right: 30px;
 }
+.firma:hover {
+  border: 1px solid #2196f3;
+}
 .firma:last-child {
   margin-right: 0px;
 }
