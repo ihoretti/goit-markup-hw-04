@@ -571,6 +571,25 @@ p {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+.footer-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #ffffff
+
+}
+.footer-links {
+ display:inline;
+ text-align: center;
+
+ min-width: 145px;
+ padding-bottom: 0px;
+ margin-bottom: 20px;
+ 
+}
 .btn-all {
   font-family: "Roboto";
   font-size: 16px;
