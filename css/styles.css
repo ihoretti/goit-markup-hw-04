@@ -76,7 +76,7 @@ a {
   display: flex;
 }
 .nav-container {
-  margin-right: 331px;
+  margin-right: 305px;
 }
 .list > .nav-item:not(:last-child) {
   margin-right: 50px;
@@ -157,9 +157,16 @@ a {
   align-items: center;
   width: 307px;
 }
+.icon-email,
+.icon-tel {
+  fill: #757575;
+}
+.icon-email:hover,
+icon-email:focus {
+  fill: #2196f3;
+}
 .header-item-tel .header-link-tel {
-  margin-left: 50px;
-
+  margin-left: 30px;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 500;
