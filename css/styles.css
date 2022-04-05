@@ -724,6 +724,8 @@ p {
   right: 36px;
   padding-bottom: 4px;
   color: #212121;
+  margin-bottom: auto;
+  text-align: left;
 }
 .descr {
   min-width: 322px;
