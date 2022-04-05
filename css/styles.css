@@ -367,7 +367,7 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
-.title {
+.title-clients {
   min-width: 390px;
   padding-bottom: 0px;
   margin-bottom: 50px;
@@ -479,14 +479,13 @@ p {
   list-style-type: none;
   padding-left: 30px;
   padding-right: 30px;
-
 }
 .item-social {
   width: 44px;
   height: 44px;
   margin-bottom: 30px;
   margin-right: 10px;
-  
+
   border-radius: 50%;
 }
 .item-social:last-child {
@@ -497,7 +496,6 @@ p {
   justify-content: center;
   align-items: center;
   fill: #afb1b8;
-
 }
 .container-footer {
   display: block;
@@ -578,39 +576,37 @@ p {
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: #ffffff
-
+  color: #ffffff;
 }
 .footer-links {
- display:inline;
- text-align: center;
- min-width: 145px;
- padding-bottom: 0px;
- margin-bottom: 20px;
- }
- .social-links {
+  display: inline;
+  text-align: center;
+  min-width: 145px;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
+}
+.social-links {
   display: inline-block;
-  width: 44px; 
+  width: 44px;
   height: 44px;
   margin-right: 10px;
   background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50% ;
+  border-radius: 50%;
 }
 .social-links:last-child {
   margin-right: 0px;
 }
 .social-links-tw {
   display: inline-block;
-  width: 44px; 
+  width: 44px;
   height: 44px;
   margin-right: 10px;
   background-color: #2196f3;
-  border-radius: 50% ; 
+  border-radius: 50%;
 }
 .icon-footer {
   background-position: 50% 50%;
   fill: #ffffff;
-
 }
 .btn-all {
   font-family: "Roboto";
