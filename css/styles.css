@@ -481,17 +481,28 @@ p {
   padding-right: 30px;
 }
 .item-social {
+  display: inline-block;
   width: 44px;
   height: 44px;
-  margin-bottom: 30px;
   margin-right: 10px;
-
+  margin-top: 16px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
   border-radius: 50%;
+  background-position: center;
 }
 .item-social:last-child {
   margin-right: 0px;
 }
-
+.item-social-insta {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+  background-color: #2196f3;
+  border-radius: 50%;
+}
 .icon-social {
   justify-content: center;
   align-items: center;
