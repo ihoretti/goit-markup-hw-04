@@ -584,11 +584,33 @@ p {
 .footer-links {
  display:inline;
  text-align: center;
-
  min-width: 145px;
  padding-bottom: 0px;
  margin-bottom: 20px;
- 
+ }
+ .social-links {
+  display: inline-block;
+  width: 44px; 
+  height: 44px;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50% ;
+}
+.social-links:last-child {
+  margin-right: 0px;
+}
+.social-links-tw {
+  display: inline-block;
+  width: 44px; 
+  height: 44px;
+  margin-right: 10px;
+  background-color: #2196f3;
+  border-radius: 50% ; 
+}
+.icon-footer {
+  background-position: 50% 50%;
+  fill: #ffffff;
+
 }
 .btn-all {
   font-family: "Roboto";
