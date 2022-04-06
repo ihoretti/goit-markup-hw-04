@@ -413,6 +413,9 @@ p {
   list-style-type: none;
   width: 270px;
   margin-right: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 0px;
 }
 .hero-item:last-child {
   margin-right: 0px;
@@ -519,11 +522,15 @@ p {
   display: block;
   padding: 0px;
 }
-
 .container-footer .footer-link {
   width: 145px;
   height: 31px;
   margin-bottom: 20px;
+}
+.footer-item {
+  padding-left: 70px;
+  margin-top: 20px;
+  margin-bottom: auto;
 }
 .footer .footer-link {
   font-family: "Raleway", sans-serif;
@@ -615,7 +622,7 @@ p {
   border-radius: 50%;
 }
 .icon-footer {
-  background-position: 50% 50%;
+  background-position: center;
   fill: #ffffff;
 }
 .btn-all {
