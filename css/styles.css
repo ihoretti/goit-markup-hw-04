@@ -508,7 +508,7 @@ p {
   fill: #afb1b8;
 }
 .container-footer {
-  display: block;
+  display: flex;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
