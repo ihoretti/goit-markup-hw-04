@@ -243,7 +243,7 @@ p {
 .icon-group {
   fill: #212121;
 }
-.icon-group:hover {
+.icon-group:hover .icon-group:focus {
   fill: #2196f3;
 }
 .group:last-child {
@@ -408,8 +408,13 @@ p {
   margin-left: 32px;
   fill: #2196f3;
 }
-
 .hero-item {
+  list-style-type: none;
+  width: 270px;
+  margin-right: 30px;
+}
+
+.hero-item-team {
   list-style-type: none;
   width: 270px;
   margin-right: 30px;
