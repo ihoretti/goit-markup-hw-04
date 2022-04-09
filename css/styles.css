@@ -394,11 +394,7 @@ p {
   margin-left: 32px;
   fill: #afb1b8;
 }
-.icon-3 {
-  margin-top: 16px;
-  margin-right: 32px;
-  margin-bottom: 16px;
-  margin-left: 32px;
+.icon:hover {
   fill: #2196f3;
 }
 .hero-item {
