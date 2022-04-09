@@ -51,13 +51,6 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .header,
 .header-box {
   display: flex;
@@ -504,15 +497,6 @@ p {
 .item-social:last-child {
   margin-right: 0px;
 }
-.item-social-insta {
-  width: 44px;
-  height: 44px;
-  margin-right: 10px;
-  margin-top: 16px;
-  margin-bottom: 30px;
-  background-color: #2196f3;
-  border-radius: 50%;
-}
 .icon-social {
   justify-content: center;
   align-items: center;
@@ -620,14 +604,6 @@ p {
 }
 .social-links:last-child {
   margin-right: 0px;
-}
-.social-links-tw {
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-  margin-right: 10px;
-  background-color: #2196f3;
-  border-radius: 50%;
 }
 .icon-footer {
   display: flex;
