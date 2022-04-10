@@ -110,15 +110,15 @@ a {
 .link-porto:focus {
   color: #2196f3;
 }
-.nav-item .nav-links {
+.nav-item .nav-link {
   width: 49px;
   height: 16px;
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #212121;
 }
-.nav-item .nav-links:hover,
-.navi-links:focus {
+.nav-item .nav-link:hover,
+.navi-link:focus {
   color: #2196f3;
 }
 .header-link-email {
@@ -135,6 +135,10 @@ a {
 .header-link-email:hover,
 .header-link-email:focus {
   color: #2196f3;
+}
+.header-link-tel:hover,
+.header-link-tel:focus {
+  color: #2196f3
 }
 .link-email-porto {
   font-family: "Roboto", sans-serif;
@@ -158,6 +162,11 @@ a {
 .icon-email:focus {
   fill: #2196f3;
 }
+.icon-tel:hover,
+.icon-tel:focus {
+  fill: #2196f3; 
+}
+
 .header-item-tel .header-link-tel {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
