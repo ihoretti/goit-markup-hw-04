@@ -215,7 +215,7 @@ p {
   background-color: var(--primary-dark-bg);
   background-image: url(../foto/overlay.jpg);
   background-image: linear-gradient(
-      top bottom,
+      to bottom,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
@@ -485,7 +485,6 @@ p {
   width: 44px;
   height: 44px;
   margin-right: 10px;
-  margin-top: 16px;
   margin-bottom: 30px;
   background-color: #ffffff;
   border-radius: 50%;
