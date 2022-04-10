@@ -136,10 +136,7 @@ a {
 .header-link-email:focus {
   color: #2196f3;
 }
-.header-link-tel:hover,
-.header-link-tel:focus {
-  color: #2196f3
-}
+
 .link-email-porto {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -174,6 +171,10 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+}
+.header-item-tel .header-link-tel:hover,
+.header-item-tel .header-link-tel:focus {
+  color: #2196f3 
 }
 .fono {
   padding-top: 200px;
