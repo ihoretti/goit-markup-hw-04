@@ -309,6 +309,15 @@ p {
   letter-spacing: 0.03em;
   color: var(--primary-dark-txt);
 }
+.hero-descr {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 .container > .hero-title {
   margin-bottom: 50px;
   text-align: center;
