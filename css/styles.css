@@ -348,11 +348,12 @@ p {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 700;
+ 
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--primary-dark-txt);
 }
-.title {
+.title-clients {
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 700;
