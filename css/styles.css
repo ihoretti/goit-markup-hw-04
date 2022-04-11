@@ -118,7 +118,7 @@ a {
   color: #212121;
 }
 .nav-item .nav-link:hover,
-.navi-link:focus {
+.nav-item.nav-link:focus {
   color: #2196f3;
 }
 .header-link-email {
@@ -276,6 +276,12 @@ p {
 .section-team {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.section-team {
+  background-color: #f5f4fa;
+}
+.hero-item-team {
+  background-color: #ffffff;
 }
 .container .hang {
   display: flex;
@@ -463,7 +469,7 @@ p {
 }
 .presentation {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 .hero-title-foto {
   min-width: 151px;
