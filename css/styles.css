@@ -411,7 +411,8 @@ p {
   margin-left: 32px;
   fill: #afb1b8;
 }
-.icon:hover {
+.icon:hover,
+.icon:focus {
   fill: #2196f3;
 }
 .hero-item {
