@@ -118,10 +118,12 @@ a {
   color: #212121;
 }
 .nav-item .nav-link:hover,
-.nav-item.nav-link:focus {
-  color: #2196f3;
+.nav-item .nav-link:focus {
+  color:#2196f3;
 }
 .header-link-email {
+  display: flex;
+  align-items: center;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -134,7 +136,7 @@ a {
 }
 .header-link-email:hover,
 .header-link-email:focus {
-  color: #2196f3;
+  color:#2196f3;
 }
 .connection .list {
   display: flex;
@@ -143,6 +145,7 @@ a {
 }
 .icon-email,
 .icon-tel {
+  margin-right: 10px;
   fill: #757575;
 }
 .icon-email:hover,
@@ -155,6 +158,8 @@ a {
 }
 
 .header-item-tel .header-link-tel {
+  display: flex;
+  align-items: center;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 500;
