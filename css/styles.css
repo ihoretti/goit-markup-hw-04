@@ -132,8 +132,8 @@ a {
 .header-item-tel {
   margin-left: 30px;
 }
-.header-item-email:hover,
-.header-item-email:focus {
+.header-link-email:hover,
+.header-link-email:focus {
   color: #2196f3;
 }
 .connection .list {
@@ -162,8 +162,8 @@ a {
   letter-spacing: 0.02em;
   color: #757575;
 }
- .header-item-tel:hover, 
- .header-item-tel:focus {
+ .header-link-tel:hover, 
+ .header-link-tel:focus {
   color: #2196f3 
 }
 .fono {
