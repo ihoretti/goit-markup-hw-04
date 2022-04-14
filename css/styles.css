@@ -226,7 +226,7 @@ p {
     ),
     url(../foto/overlay.jpg);
 }
-.group {
+.group-link {
   display: flex;
   width: 270px;
   height: 120px;
@@ -238,10 +238,11 @@ p {
   justify-content: center;
   align-items: center;
 }
-.icon-group {
+.group-link {
   fill: #212121;
 }
-.icon-group:hover .icon-group:focus {
+.group-link:hover .icon-group, 
+.group-link:focus .icon-group {
   fill: #2196f3;
 }
 .group:last-child {
@@ -517,10 +518,13 @@ p {
 .item-social:last-child {
   margin-right: 0px;
 }
-.social-link:hover,
+.social-link:hover ,
 .social-link:focus {
   background-color:#2196f3 ;
-  color: #ffffff;
+}
+.social-link:hover .icon-social,
+.social-link:focus .icon-social {
+  fill: #ffffff;
 }
 .icon-social {
   justify-content: center;
