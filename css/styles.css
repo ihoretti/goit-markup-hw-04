@@ -509,12 +509,14 @@ p {
   align-items: center;
   width: 44px;
   height: 44px;
-  margin-right: 10px;
   
   background-color: #ffffff;
   border-radius: 50%;
   text-align: center;
   color: #afb1b8;
+}
+.item-social {
+  margin-right: 10px;
 }
 .item-social:last-child {
   margin-right: 0px;
