@@ -497,10 +497,10 @@ p {
 .list-social {
   display: flex;
   list-style: none;
- padding: 0px;
- margin: 0px;
- margin-top: 16px;
- justify-content: center;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 16px;
+  justify-content: center;
   align-items: center; 
 }
 .social-link ,
@@ -553,13 +553,7 @@ p {
   display: block;
   margin-bottom: 20px;
 }
-.footer-item {
-  display: flex;
-  list-style-type: none;
-  padding-left: 70px;
-  margin-top: 20px;
-  margin-bottom: auto;
-}
+
 .footer-link {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -623,16 +617,16 @@ p {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: #ffffff;
-  margin-bottom: 20px;
+ 
 }
 .footer-links {
   display: inline;
   text-align: center;
   min-width: 145px;
   padding-bottom: 0px;
+  margin-left: 70px;
 }
 .social-links {
-  margin-right: 10px;
   background-color: rgba(255, 255, 255, 0.1);
   color: #ffffff;
 }
